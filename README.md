@@ -50,8 +50,6 @@ In the scripts folder, the [`fake-data`](scripts/fake-data/) folder contains:
 
 The [`real-data`](scripts/real-data/) folder contains:
 * Files to read in and collate the real data that are contained in separate excel files in the [`data`](data) folder into a joint "data.csv" file, e.g. [`read-in-real-data.jl`](scripts/real-data/read-in-real-data.jl).
-* [`fit-data.jl`](scripts/real-data/fit-data.jl), which is designed to fit the ODE to the data.
-* [`bootstrap.jl`](scripts/real-data/bootstrap.jl), which is designed to calculate the bootstrap confidence intervals of the fit to the data.
 
 
 ## References
